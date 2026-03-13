@@ -7,11 +7,11 @@ pipeline {
 
   stages {
 
-    stage('Checkout') {
-      steps {
-        git 'https://github.com/ShreyasK95/DevSecOps-Pipeline.git'
-      }
-    }
+   stage('Checkout') {
+  steps {
+    checkout scm
+  }
+}
 
     stage('Build Docker Image') {
       steps {
