@@ -53,6 +53,9 @@ pipeline {
       string(credentialsId: 'aws-secret-key', variable: 'AWS_SECRET_ACCESS_KEY')
     ]) {
       sh '''
+      echo "Checking AWS environment variables..."
+      env | grep AWS
+      
       export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
       export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
 
