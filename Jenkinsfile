@@ -9,7 +9,7 @@ pipeline {
 
     stage('Checkout') {
       steps {
-        git 'YOUR_GITHUB_REPO'
+        git 'https://github.com/ShreyasK95/DevSecOps-Pipeline.git'
       }
     }
 
