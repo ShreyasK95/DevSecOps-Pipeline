@@ -55,9 +55,6 @@ pipeline {
       sh '''
       echo "Checking AWS environment variables..."
       env | grep AWS
-      
-      export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
-      export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
 
       cd terraform
       terraform init
