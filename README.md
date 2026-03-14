@@ -80,7 +80,7 @@ Generative AI was used to assist in several aspects of this project:
 - Improving README clarity and formatting
 
 📄 **Proof of AI Usage:**  
-(Add your AI report link here)
+(https://docs.google.com/document/d/1cSqr2Cn_DeB6DZkYzi1QSgufwWk0x0eq2g4hLMYO1SM/edit?usp=sharing)
 
 ---
 
